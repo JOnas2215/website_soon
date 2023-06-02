@@ -1,3 +1,9 @@
+// Loadingscreen
+var loadingtime = setInterval(function() {
+  $(".loader").fadeOut("slow");
+  clearInterval(loadingtime);
+}, (Math.random() * 1000));
+
 // Code for countdown timer
 var targetDate = new Date("2023-07-02");
 
