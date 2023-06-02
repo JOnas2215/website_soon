@@ -18,7 +18,7 @@ var countdown = setInterval(function() {
     clearInterval(countdown);
     document.getElementById("countdown").innerHTML = "SOON!";
   }
-}, 1000);
+}, 50);
 
 const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
